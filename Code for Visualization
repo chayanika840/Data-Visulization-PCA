@@ -12,6 +12,7 @@ df = pd.read_csv(url
                  , names=['sepal length','sepal width','petal length','petal width','target'])
 df.head()
 
+#Defining the features in the dataset
 features = ['sepal length', 'sepal width', 'petal length', 'petal width']
 x = df.loc[:, features].values
 
